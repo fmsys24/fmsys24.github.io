@@ -41,10 +41,8 @@
     <header id="header" class="alt ">
         <nav id="nav">
             <ul>
-                <li><a href="index.html" style="color: #4ab7f9;">Home</a></li>
-                <li><a href="index.html" class="darkcolor">Home</a></li>
-                <li><a href="organizers.html#main">Organizers</a></li>
-                
+                <li><a href="index.html" style="font-weight: 700;">Home</a></li>
+                <li><a href="organizers.html#main" style="font-weight: 700;">Organizers</a></li>
                 <!-- <li><a href="sponsorship.html#main">Sponsorship</a></li> -->
                 <!-- <li><a href="workshops_tutorials_competitions.html#main">Workshops/Tutorials/Competitions</a></li> -->
                 <!-- <li><a href="past.html#main">Past CPSW</a></li> -->
@@ -173,7 +171,7 @@
         $.localtime.setFormat('H:mm');
 
         // var images = ['images/wallpapers/hk-1.jpg', 'images/wallpapers/hk-2.jpg', 'images/wallpapers/hk-3.jpg', 'images/wallpapers/hk-4.jpg',];
-        var images = ['images/wallpapers/hk-1.jpg',];
+        var images = ['images/wallpapers/hk-1.jpg','images/wallpapers/hk-2.jpg',];
 
         var id = 0;
 
@@ -181,7 +179,7 @@
             $("#banner").animate({ opacity: 1 }, 1500, function () {
                 $("#banner").animate({ opacity: 0.6 }, 1000, function () {
                     id = (id + 1) % images.length;
-                    $("#banner").css("background-image", "url('assets/css/images/overlay.png'), url(" + images[id] + ")");
+                    $("#banner").css("background-image", "url('assets/css/images/overlay.jpg'), url(" + images[id] + ")");
 
                     $("#banner").animate({ opacity: 1 }, 1500, function () {
                         setTimeout(banner_change, 5000);
