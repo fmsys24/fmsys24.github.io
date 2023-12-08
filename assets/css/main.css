@@ -2904,9 +2904,9 @@ input, select, textarea {
 		background-attachment: scroll, fixed;
 		background-color: #494d53;
         background-image: url("images/overlay.jpg");
-		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: #d2d3d4;
 		padding: 4em 0;
 		position: relative;
