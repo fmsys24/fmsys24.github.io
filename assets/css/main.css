@@ -2901,6 +2901,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
+		height: 23em;
 		background-attachment: scroll, fixed;
 		background-color: #494d53;
         background-image: url("images/overlay.jpg");
@@ -2942,8 +2943,8 @@ input, select, textarea {
 		}
 
 		#banner .inner {
-			padding-top: calc(.2 *100vh);
-			padding-bottom: calc(.2 *100vh);
+			/* padding-top: calc(.2 *100vh); */
+			/* padding-bottom: calc(.2 *100vh); */
 			position: relative;
 			z-index: 2;
 		}
@@ -3429,7 +3430,7 @@ input, select, textarea {
 			}
 
 				#banner h2 {
-					font-size: 2em;
+					font-size: 1.5em;
 				}
 
 				#banner p {
@@ -3535,6 +3536,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
+				height: 23em;
 				padding: 5em 2em 4em 2em;
 			}
 
