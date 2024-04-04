@@ -35,19 +35,19 @@
 	// Header.
 	// If the header is using "alt" styling and #banner is present, use scrollwatch
 	// to revert it back to normal styling once the user scrolls past the banner.
-		if ($header.hasClass('alt')
-		&&	$banner.length > 0) {
+		// if ($header.hasClass('alt')
+		// &&	$banner.length > 0) {
 
-			$window.on('resize', function() { $window.trigger('scroll'); });
+		// 	$window.on('resize', function() { $window.trigger('scroll'); });
 
-			$banner.scrollex({
-				bottom:		$header.outerHeight() + 5,
-				terminate:	function() { $header.removeClass('alt'); },
-				enter:		function() { $header.addClass('alt'); },
-				leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); }
-			});
+		// 	$banner.scrollex({
+		// 		bottom:		$header.outerHeight() + 5,
+		// 		terminate:	function() { $header.removeClass('alt'); },
+		// 		enter:		function() { $header.addClass('alt'); },
+		// 		leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); }
+		// 	});
 
-		}
+		// }
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({

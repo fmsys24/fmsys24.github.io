@@ -2800,7 +2800,7 @@ input, select, textarea {
 
 					#header nav > ul > li a {
 						border: 0;
-						color: inherit;
+						/* color: inherit; */
 						display: inline-block;
 						text-decoration: none;
 					}
@@ -2808,10 +2808,10 @@ input, select, textarea {
 						#header nav > ul > li a.icon:before {
 							margin-right: 0.5em;
 						}
-
+/* 
 					#header nav > ul > li:first-child {
 						margin-left: 0;
-					}
+					} */
 
 					#header nav > ul > li .button {
 						height: 2.25em;
@@ -3250,14 +3250,14 @@ input, select, textarea {
 						color: #fff;
 						content: '\f0c9';
 						display: block;
-						font-size: 16px;
+						font-size: 24px;
 						height: 2.25em;
 						left: 0.5em;
 						line-height: 2.25em;
 						position: absolute;
 						text-align: center;
 						top: 0.5em;
-						width: 3.5em;
+						width: 3em;
 					}
 
 			#navPanel {

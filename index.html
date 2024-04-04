@@ -1,9 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-
-<!-- Mirrored from cps-iot-week2024.ie.cuhk.edu.hk/ Fri, 08 Dec 2023 06:12:09 GMT -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
 <head>
     <title>FMSys Workshop 2024</title>
     <meta name="google-site-verification" content="CP81HjWneBXMgB69FAhuh0dnvuYmg9Ert5Iup3vqzq0" />
@@ -40,23 +34,131 @@
         .darkcolor {
             color: #4ab7f9;
         }
+
+
+		/* Nav */
+
+		#toptext
+		{
+			padding-left: 285px;
+		}
+
+			#nav {
+				position: relative;
+				display: block;
+				top: -14em;
+				left: 0;
+				width: 100%;
+				text-align: center;
+
+			}
+
+				#nav > ul {
+					display: inline-block;
+					border-radius: 0.3em;
+					box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+					padding: 0 1em 0 1em;
+					background-color:rgb(250 250 250 / 0.90);
+				}
+
+					#nav > ul > li {
+						display: inline-block;
+						text-align: center;
+						padding: 0 1.5em 0 0.5em;
+					}
+
+						#nav > ul > li > ul {
+							display: none;
+
+						}
+
+						#nav > ul > li > a, #nav > ul > li > span {
+							display: block;
+							color: #222;
+							text-transform: uppercase;
+							text-decoration: none;
+							font-size: 1vw;
+                            font-weight: 700;
+							letter-spacing: 0.10em;
+							height: 4em;
+							line-height: 4em;
+							-moz-transition: all .25s ease-in-out;
+							-webkit-transition: all .25s ease-in-out;
+							-o-transition: all .25s ease-in-out;
+							-ms-transition: all .25s ease-in-out;
+							transition: all .25s ease-in-out;
+							outline: 0;
+						}
+
+						#nav > ul > li:hover > a {
+							color: #4da6ff;
+
+						}
+
+						#nav > ul > li.active > a, #nav > ul > li.active > span {
+							color: #FF5733;
+						}
+
+			.dropotron {
+				background: #222835 url("images/overlay.png");
+				background-color: rgba(44, 50, 63, 0.925);
+				padding: 1.25em 1em 1.25em 1em;
+				border-radius: 0.35em;
+				box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+				min-width: 12em;
+				text-align: left;
+				margin-top: -1.25em;
+				margin-left: -1px;
+			}
+
+				.dropotron.level-0 {
+					margin-top: -1px;
+					margin-left: 0;
+					border-top-left-radius: 0;
+					border-top-right-radius: 0;
+				}
+
+				.dropotron a, .dropotron span {
+					-moz-transition: all .25s ease-in-out;
+					-webkit-transition: all .25s ease-in-out;
+					-ms-transition: all .25s ease-in-out;
+					transition: all .25s ease-in-out;
+					display: block;
+					color: #eee;
+					color: rgba(255, 255, 255, 0.75);
+					text-transform: uppercase;
+					text-decoration: none;
+					font-size: 0.7em;
+					letter-spacing: 0.25em;
+					border-top: solid 1px rgba(255, 255, 255, 0.15);
+					line-height: 3em;
+				}
+
+				.dropotron li:first-child a, .dropotron li:first-child span {
+					border-top: 0;
+				}
+
+				.dropotron li:hover > a, .dropotron li:hover > span {
+					color: #fff;
+				}
+
     </style>
 </head>
 
 <body class="landing is-preload" sytle="margin-top: 0.8vw;">
-    <header id="header" class="alt ">
-        <nav id="nav">
-            <ul>
-                <li><a href="index.html#main" style="font-weight: 700; font-size: 1.5vw; text-shadow: 0.1px 0px 50px grey;">Home</a></li>
-                <li><a href="program.html#main" style="font-weight: 700; font-size: 1.5vw; text-shadow: 0.1px 0px 50px grey;">Program</a></li>
-                <li><a href="organization.html#main" style="font-weight: 700; font-size: 1.5vw; text-shadow: 0.1px 0px 50px grey;">Organization</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header id="header" class="alt">
+    <nav id="nav">
+        <ul>
+            <li class="current" style="white-space: nowrap;"><a href="index.html">Home</a></li>
+            <li style="white-space: nowrap;"><a href="program.html#main">Program</a></li>
+            <li style="white-space: nowrap;"><a href="organization.html#main">Organization</a></li>
+        </ul>
+    </nav>
+</header>
 
     <!-- Banner -->
-    <section id="banner">
-        <div class="inner">
+    <section id="banner" >
+        <div class="inner" style="margin-top: 1vw;">
             <h2> International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things (FMSys)
             </h2>
             <h3>Hong Kong, May 13, 2024</h3>
@@ -190,7 +292,7 @@
         <!-- <span class="copyright"> &copy; FMSys 2024. All rights reserved. Images from <a
                 href="https://unsplash.com/s/photos/hong-kong">Unsplash</a>
             | <a href="cookie-policy.html#main">Cookie Policy</a></span> -->
-            <span> Interested in joining the FMSys 2024? Register now for the <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcps-iot-week2024.ie.cuhk.edu.hk%2Fregistration.php%23main&data=05%7C02%7Cneiwen.ling%40yale.edu%7C23e71756a0e948ab627d08dc4aa9bef2%7Cdd8cbebb21394df8b4114e3e87abeb5c%7C0%7C0%7C638467340122637766%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=WkfGbKppj1XkzaPbLhhg%2BkNnXpssdLbw7EjKL67jrL4%3D&reserved=0" >CPS-IoT Week </a>Workshop! </span>
+            <span> Interested in joining the FMSys 2024? Register now for the <a href="https://cps-iot-week2024.ie.cuhk.edu.hk/" >CPS-IoT Week </a>Workshop! </span>
     </footer>
 
     <!-- Scripts -->
